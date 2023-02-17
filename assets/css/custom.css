@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'romantic_couple_regular';
+    src: url('../fonts/romantic-couple-webfont.woff2') format('woff2'),
+    url('../fonts/romantic-couple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1.presentation-title{
+    font-family: 'romantic_couple_regular', Arial, sans-serif;
+    font-size: 60px;
+    margin-top: 30px;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.navbar{
+    padding-top: 15px !important;
+}
+
+#top-logo {
+    width: 180px;
+    height: 60px;
+    background-size: 180px;
+    background-image: url("../img/logo/c7_logo_dark.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 0;
+}
+.navbar-transparent #top-logo{
+    background-image: url("../img/logo/c7_logo.png");
+    background-repeat: no-repeat;
+}
+
+.page-header .content-center {
+    margin-top: -100px !important;
+}
+
+/* Scroll-top Arrow CSS Start */
+.scroll-top {
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 1060;
+}
+.scroll-top #scrollup {
+    background: #ffffff;
+    border: 1px solid #183a49;
+    padding: 8px 10px;
+    display: none;
+    cursor: pointer;
+    color: #183a49;
+}
+/* Scroll-top Arrow CSS End */
+
+.show{
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.container .content{
+    padding: 75px 20px 75px 20px;
+}
+
+.mini-wrapper{
+    padding: 50px 0;
+}
+
+.default-bg{
+    background: #FFF;
+    width: 100vw;
+}
+.alt-bg{
+    background: #f4f4f4;
+    width: 100vw;
+}
+/*
+.clients-logo img{
+    width: 160px;
+}
+*/
+.clients-logo div{
+    text-align: center;
+}
+#clients-set-1,
+#clients-set-2,
+#clients-set-3,
+#clients-set-4{
+  padding-right: 110px;
+  padding-bottom: 50px;
+}
+#clients-set-3,
+#clients-set-4{
+  padding-bottom: 0;
+}
+
+#gmap {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+/* Swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* Owl Style */
+.owl-logo .item{
+    border: 1px solid #e4e4e4;
+    padding: 20px 40px;
+    height: 170px;
+    width: 200px;
+    margin: auto;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {
+    font-size: 37px;
+    color: #e4e4e4;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background: unset !important;
+}
+
+/* Responsive */
+@media all and (max-width: 991px) {
+    #top-logo {
+        width: 150px;
+        height: 50px;
+        background-size: 150px;
+        margin: 0 0 10px 20px;
+    }
+    .navbar-transparent #top-logo{
+        width: 150px;
+        height: 50px;
+        background-size: 150px;
+    }
+
+    /*
+    .clients-logo img{
+        width: 130px;
+    }
+    */
+    #clients-set-1,
+    #clients-set-2,
+    #clients-set-3,
+    #clients-set-4{
+      padding-right: 50px;
+      padding-bottom: 30px;
+    }
+    #clients-set-4{
+      padding-bottom: 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        height: 25px !important;
+    }
+}
+@media all and (max-width: 841px) {
+    /* Owl Style */
+    .owl-logo .item{
+        padding: 15px 30px;
+        height: 150px;
+    }
+    .owl-logo .nivea img{
+        max-height: 100px !important;
+        width: auto !important;
+    }
+
+    .owl-prev, .owl-next {
+        top: 13%;
+    }
+}
+@media all and (max-width: 767px) {
+    h1.presentation-title{
+        font-size: 50px;
+    }
+
+    /* Owl Style */
+    .owl-logo .item{
+        padding: 10px 20px;
+        height: 130px;
+    }
+
+    .owl-logo .nivea img{
+        max-height: 80px !important;
+        width: auto !important;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        height: 25px !important;
+    }
+
+    #clients-set-1,
+    #clients-set-2,
+    #clients-set-3,
+    #clients-set-4{
+      padding-right: 30px;
+      padding-bottom: 20px;
+    }
+    #clients-set-4{
+      padding-bottom: 0;
+    }
+}
+@media all and (max-width: 575px) {
+    #clients-set-1,
+    #clients-set-2,
+    #clients-set-3,
+    #clients-set-4{
+      padding-right: 15px;
+      padding-bottom: 50px;
+    }
+    #clients-set-4{
+      padding-bottom: 0;
+    }
+}
+@media all and (max-width: 480px) {
+    /*
+    .clients-logo img{
+        width: 100px;
+    }
+    */
+
+    #clients-set-1,
+    #clients-set-2,
+    #clients-set-3{
+      padding-bottom: 30px;
+    }
+
+    h1.presentation-title{
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 320px) {
+  #clients-set-1,
+  #clients-set-2,
+  #clients-set-3{
+    padding-bottom: 30px;
+  }
+}

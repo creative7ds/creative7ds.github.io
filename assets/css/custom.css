@@ -251,6 +251,16 @@ h1.presentation-title{
     #clients-set-4{
       padding-bottom: 0;
     }
+
+    #footer {
+      padding: 5px 0;
+      line-height: 18px !important;
+    }
+
+    #whatsapp {
+      bottom: 20px !important;
+      right: 20px !important;
+    }
 }
 @media all and (max-width: 575px) {
     #clients-set-1,

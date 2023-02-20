@@ -1,14 +1,17 @@
 function scrolltop_arrow () {
     /* ---- Page Scrollup JS Start ---- */
     //When distance from top = 250px fade button in/out
-    var scrollup = $('#scrollup');
-    var headertag = $('header');
-    var mainfix = $('.main');
+    let scrollup = $('#scrollup');
+    let whatsapp = $('#whatsapp');
+    let headertag = $('header');
+    let mainfix = $('.main');
     $(window).scroll(function(){
         if ($(this).scrollTop() > 250) {
-            scrollup.fadeIn(300);
+            //scrollup.fadeIn(300);
+            whatsapp.fadeIn(300);
         } else {
-            scrollup.fadeOut(300);
+            //scrollup.fadeOut(300);
+            whatsapp.fadeOut(300);
         }
 
         /* header-fixed JS Start */

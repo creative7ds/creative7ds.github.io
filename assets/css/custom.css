@@ -172,6 +172,10 @@ h1.presentation-title{
     background: unset !important;
 }
 
+#copyright {
+  font-style: normal;
+}
+
 /* Responsive */
 @media all and (max-width: 991px) {
     #top-logo {
@@ -273,6 +277,11 @@ h1.presentation-title{
     #clients-set-4{
       padding-bottom: 0;
     }
+
+    .navbar-toggler {
+      margin-top: -10px;
+      margin-right: 5px;
+    }
 }
 @media all and (max-width: 480px) {
     /*
@@ -290,6 +299,11 @@ h1.presentation-title{
     h1.presentation-title{
         font-size: 40px;
     }
+}
+@media all and (max-width: 439px) {
+  #footer span {
+    display: block;
+  }
 }
 @media all and (max-width: 320px) {
   #clients-set-1,
